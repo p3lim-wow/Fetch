@@ -34,7 +34,7 @@ local function resetOverride()
 	UnregisterAttributeDriver(button, 'state-bind')
 end
 
-local function overrideButton(spellID, key, actionSlot)
+local function overrideButton(key, actionSlot)
 	local conditions = ''
 	if actionSlot >= 1 and actionSlot <= 12 then
 		-- ensure overriden bars are always used (bonusbar:5 is dragonriding)
@@ -80,10 +80,10 @@ local function updateSpells()
 				-- find the key(s) bound to that button and override them
 				local key1, key2 = GetBindingKey(command)
 				if key1 then
-					overrideButton(id, key1, actionSlot)
+					overrideButton(key1, actionSlot)
 				end
 				if key2 then
-					overrideButton(id, key1, actionSlot)
+					overrideButton(key1, actionSlot)
 				end
 			end
 		end
