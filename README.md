@@ -4,7 +4,7 @@ This is an addon for the popular MMORPG "World of Warcraft".
 It can be downloaded at one of the following sites:
 
 - [CurseForge](https://www.curseforge.com/wow/addons/fetch)
-- [Wago](https://addons.wago.io/addons/interactivewormholes)
+- [Wago](https://addons.wago.io/addons/fetch)
 - [GitHub](https://github.com/p3lim-wow/Fetch/releases)
 
 [![](https://shields.io/badge/paypal-support_development-red?logo=paypal&style=for-the-badge)](https://www.paypal.me/p3lim)
