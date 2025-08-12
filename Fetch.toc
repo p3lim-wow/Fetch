@@ -1,0 +1,18 @@
+## Interface: 110200
+## Author: p3lim
+## Version: @project-version@
+## Title: Fetch
+## Notes: Makes the Hunter Marksmanship Fetch ability smarter!
+## IconTexture: Interface\Icons\inv_111_hunter_ability_featheredfrenzy
+
+## X-Curse-Project-ID: 1326003
+## X-Wago-ID: x
+
+#@non-debug@
+# libs\Dashi\embed.xml
+#@end-non-debug@
+#@debug@
+..\Dashi\embed.xml
+#@end-debug@
+
+addon.lua
