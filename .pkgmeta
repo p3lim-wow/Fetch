@@ -1,0 +1,12 @@
+package-as: Fetch
+
+externals:
+  libs/Dashi:
+    url: https://github.com/p3lim-wow/Dashi
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - README.md
